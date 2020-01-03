@@ -8,6 +8,7 @@ namespace Swapi_C_Sharp
         {
             Console.WriteLine("Hello World!");
             Console.WriteLine("First Commit");
+            Console.WriteLine("Test");
         }
     }
 }
