@@ -1,4 +1,7 @@
 ﻿using System;
+using System.IO;
+using System.Net;
+using System.Text;
 
 namespace Swapi_C_Sharp
 {
@@ -9,6 +12,11 @@ namespace Swapi_C_Sharp
             Console.WriteLine("Hello World!");
             Console.WriteLine("First Commit");
             Console.WriteLine("Test");
+
+            Web web = new Web();
+           
+            web.testAsync();
+          
         }
     }
 }
