@@ -2,7 +2,7 @@
 
 namespace Swapi_C_Sharp
 {
-    class Program
+    class Launcher
     {
         static void Main(string[] args)
         {
