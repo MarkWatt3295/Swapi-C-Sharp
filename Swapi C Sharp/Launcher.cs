@@ -10,12 +10,13 @@ namespace Swapi_C_Sharp
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            Console.WriteLine("First Commit");
-            Console.WriteLine("Test");
-
+            
             Web web = new Web();
-           
-            web.testAsync();
+
+            //web.test();
+            //web.test3();
+            //Console.WriteLine(web.GET("https://swapi.co/api/people/1"));
+            web.test5();
           
         }
     }
