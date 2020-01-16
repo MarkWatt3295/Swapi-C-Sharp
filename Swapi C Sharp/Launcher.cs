@@ -11,13 +11,7 @@ namespace Swapi_C_Sharp
         {
             Console.WriteLine("Hello World!");
             
-            Web web = new Web();
-
-            //web.test();
-            //web.test3();
-            //Console.WriteLine(web.GET("https://swapi.co/api/people/1"));
-            web.test5();
-          
+        
         }
     }
 }
